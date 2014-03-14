@@ -3,11 +3,44 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   .navbar-inverse {
+	   background-color: #E31F2B;
+	   background-image: none;
+	   border: none;
+   }
+   
+   .navbar .navbar-nav .active a {
+	   background-color: #441513;
+   }
+   
+   .navbar-inverse .navbar-nav li a {
+	   color: #fff;
+	   text-shadow: none;
+   }
 
-
-
-
-
+   ul.nav a:hover { 
+   		background-color: #441513 !important; 
+   }
+   
+   .navbar-inverse .navbar-brand {
+	  color: #fff;
+	  text-shadow: none;
+   }
+   
+   .btn {
+	  background-color: #441513;
+	  color: #fff;
+	  background-image: none;
+	  border-radius: 3px;
+	  border: none;
+	  text-shadow: none;
+   }
+   
+   .btn-lg {
+	  padding: 13px 20px;
+   }
+   
 
 
 
