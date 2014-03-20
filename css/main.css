@@ -1,47 +1,139 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
    
-   .navbar-inverse {
-	   background-color: #E31F2B;
-	   background-image: none;
-	   border: none;
-   }
-   
-   .navbar .navbar-nav .active a {
-	   background-color: #441513;
-   }
-   
-   .navbar-inverse .navbar-nav li a {
-	   color: #fff;
-	   text-shadow: none;
-   }
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic);
 
-   ul.nav a:hover { 
-   		background-color: #441513 !important; 
-   }
-   
-   .navbar-inverse .navbar-brand {
-	  color: #fff;
-	  text-shadow: none;
-   }
-   
-   .btn {
-	  background-color: #441513;
-	  color: #fff;
-	  background-image: none;
-	  border-radius: 3px;
-	  border: none;
-	  text-shadow: none;
-   }
-   
-   .btn-lg {
-	  padding: 13px 20px;
-   }
-   
+body {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
 
+h1 {
+	font-family: 'Lato', 'Helvetica', sans-serif;
+	font-weight: 700;
+}
+
+.navbar-inverse {
+   background-color: #E31F2B;
+   background-image: none;
+   border: none;
+}
+
+.navbar .navbar-nav .active a {
+   background-color: #441513;
+}
+
+.navbar-inverse .navbar-nav li a {
+   color: #fff;
+   text-shadow: none;
+}
+
+ul.nav a:hover { 
+		background-color: #441513 !important; 
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  text-shadow: none;
+}
+
+.jumbotron {
+   margin-bottom: 0px;
+}
+
+.department-btn {
+  background-color: #E31F2B;
+  background-image: none;
+  border-radius: 8px;
+  border: none;
+  text-shadow: none;
+  padding: 60px 175px;
+  font-size: 65px;
+}
+
+a.department-btn {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover.department-btn {
+  color: #fff;
+  background-color: #441513;
+ 
+}
+
+a.btn.btn-lg.department-btn {
+	  display: inline;
+}
+
+
+.department {
+	font-weight: 200;
+	line-height: 2.1428571435;
+}
+
+footer {
+	margin-top: 35px;
+}
+
+
+@media (max-width: 900px) {	
+
+}
+
+@media (max-width: 767px) {
+	a.btn.btn-lg.department-btn {
+	font-size: 30px;
+	}	
+	
+}
+
+@media (min-width: 768px) {
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	  .department-btn {
+	  font-size: 45px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) {
+	
+}
+
+@media (max-width: 660px) {
+	a.btn.btn-lg.department-btn {
+		color: #E31F2B;
+		font-size: 45px;
+		font-weight: 900;
+		background-color: transparent;
+		padding: 30px;
+		border: 3px solid;
+	}
+	
+	a:hover.btn.btn-lg.department-btn {
+		color: #fff;
+		background-color: #E31F2B;
+		font-weight: 700;
+	}
+	a:focus.btn.btn-lg.department-btn {
+		color: #fff;
+		background-color: #E31F2B;
+		font-weight: 700;
+	}
+}
+
+@media (max-width: 515px) {
+	a.btn.btn-lg.department-btn {
+		font-size: 30px;
+		padding: 25px;
+	}
+}
 
 
 
